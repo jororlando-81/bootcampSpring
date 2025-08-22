@@ -30,6 +30,7 @@ public class Game {
     private Double score;
     private String imgUrl;
 
+    // Tipo "TEXT" para tener capacidad mayor de 255 caracteres que es el limite del String
     @Column(columnDefinition = "TEXT")
     private String shortDescription;
 
